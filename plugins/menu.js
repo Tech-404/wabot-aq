@@ -33,10 +33,10 @@ const defaultMenu = {
 ╭─「 %me 」
 │ Hai, %name!
 │
-│ Tersisa *%limit Limit*
-│ Role *%role*
-│ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
-│ %totalexp XP in Total
+│ Limit : *%limit*
+│ Rank : *%role*
+│ Level : *%level*
+│ Xp : *%totalexp*
 │ 
 │ Tanggal: *%week %weton, %date*
 │ Waktu: *%time*
@@ -44,7 +44,7 @@ const defaultMenu = {
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
 │ Github:
-│ %github
+│ Nurutomo :}
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
