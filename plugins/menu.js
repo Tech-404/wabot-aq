@@ -39,7 +39,6 @@ const defaultMenu = {
 │ %totalexp XP in Total
 │ 
 │ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
 │ Waktu: *%time*
 │
 │ Uptime: *%uptime (%muptime)*
@@ -52,6 +51,7 @@ const defaultMenu = {
   body: '│ • %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
+  Sc *Nurutomo*
 *%npmname@^%version*
 ${'```%npmdesc```'}
 `,
